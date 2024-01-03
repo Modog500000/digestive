@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result":
+  {
+    "item": "digestive:black_crayon",
+    "count": 1
+  }
+}

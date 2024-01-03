@@ -8,7 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 import org.modogthedev.digestive.Digestive;
 
 public class ModItems {
-    public static final FoodProperties crayonFood = new FoodProperties.Builder().nutrition(3).saturationMod(0.2f).build();
+    public static final FoodProperties crayonFood = new FoodProperties.Builder().nutrition(3).saturationMod(0.2f).alwaysEat().build();
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Digestive.MODID);
 
     public static final RegistryObject<Item> RED_CRAYON = ITEMS.register("red_crayon", () -> new Item(new  Item.Properties().food(crayonFood)));
