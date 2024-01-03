@@ -1,0 +1,7 @@
+{
+  "parent": "digestive:item/crayon",
+  "textures": {
+    "0": "digestive:item/lime_crayon",
+    "particle": "digestive:item/lime_crayon"
+  }
+}
